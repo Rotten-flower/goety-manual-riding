@@ -1,0 +1,665 @@
+{
+  "width": 2048,
+  "height": 4512,
+  "entries": [
+    {
+      "name": "mouse-left",
+      "index": 0,
+      "width": 24,
+      "key": -1,
+      "button": 0
+    },
+    {
+      "name": "mouse-right",
+      "index": 18,
+      "width": 24,
+      "key": -1,
+      "button": 1
+    },
+    {
+      "name": "mouse-middle",
+      "index": 36,
+      "width": 24,
+      "key": -1,
+      "button": 2
+    },
+    {
+      "name": "mouse-side-upper",
+      "index": 54,
+      "width": 24,
+      "key": -1,
+      "button": 4
+    },
+    {
+      "name": "mouse-side-lower",
+      "index": 72,
+      "width": 24,
+      "key": -1,
+      "button": 3
+    },
+    {
+      "name": "a",
+      "index": 90,
+      "width": 24,
+      "key": 65,
+      "button": -1,
+      "token": 61360
+    },
+    {
+      "name": "b",
+      "index": 108,
+      "width": 24,
+      "key": 66,
+      "button": -1,
+      "token": 61361
+    },
+    {
+      "name": "c",
+      "index": 126,
+      "width": 24,
+      "key": 67,
+      "button": -1,
+      "token": 61362
+    },
+    {
+      "name": "d",
+      "index": 144,
+      "width": 24,
+      "key": 68,
+      "button": -1,
+      "token": 61363
+    },
+    {
+      "name": "e",
+      "index": 162,
+      "width": 24,
+      "key": 69,
+      "button": -1,
+      "token": 61364
+    },
+    {
+      "name": "f",
+      "index": 180,
+      "width": 24,
+      "key": 70,
+      "button": -1,
+      "token": 61365
+    },
+    {
+      "name": "g",
+      "index": 198,
+      "width": 24,
+      "key": 71,
+      "button": -1,
+      "token": 61366
+    },
+    {
+      "name": "h",
+      "index": 216,
+      "width": 24,
+      "key": 72,
+      "button": -1,
+      "token": 61367
+    },
+    {
+      "name": "i",
+      "index": 234,
+      "width": 24,
+      "key": 73,
+      "button": -1,
+      "token": 61368
+    },
+    {
+      "name": "j",
+      "index": 252,
+      "width": 24,
+      "key": 74,
+      "button": -1,
+      "token": 61369
+    },
+    {
+      "name": "k",
+      "index": 270,
+      "width": 24,
+      "key": 75,
+      "button": -1,
+      "token": 61370
+    },
+    {
+      "name": "l",
+      "index": 288,
+      "width": 24,
+      "key": 76,
+      "button": -1,
+      "token": 61371
+    },
+    {
+      "name": "m",
+      "index": 306,
+      "width": 24,
+      "key": 77,
+      "button": -1,
+      "token": 61372
+    },
+    {
+      "name": "n",
+      "index": 324,
+      "width": 24,
+      "key": 78,
+      "button": -1,
+      "token": 61373
+    },
+    {
+      "name": "o",
+      "index": 342,
+      "width": 24,
+      "key": 79,
+      "button": -1,
+      "token": 61374
+    },
+    {
+      "name": "p",
+      "index": 360,
+      "width": 24,
+      "key": 80,
+      "button": -1,
+      "token": 61375
+    },
+    {
+      "name": "q",
+      "index": 378,
+      "width": 24,
+      "key": 81,
+      "button": -1,
+      "token": 61376
+    },
+    {
+      "name": "r",
+      "index": 396,
+      "width": 24,
+      "key": 82,
+      "button": -1,
+      "token": 61377
+    },
+    {
+      "name": "s",
+      "index": 414,
+      "width": 24,
+      "key": 83,
+      "button": -1,
+      "token": 61378
+    },
+    {
+      "name": "t",
+      "index": 432,
+      "width": 24,
+      "key": 84,
+      "button": -1,
+      "token": 61379
+    },
+    {
+      "name": "u",
+      "index": 450,
+      "width": 24,
+      "key": 85,
+      "button": -1,
+      "token": 61380
+    },
+    {
+      "name": "v",
+      "index": 468,
+      "width": 24,
+      "key": 86,
+      "button": -1,
+      "token": 61381
+    },
+    {
+      "name": "w",
+      "index": 486,
+      "width": 24,
+      "key": 87,
+      "button": -1,
+      "token": 61382
+    },
+    {
+      "name": "x",
+      "index": 504,
+      "width": 24,
+      "key": 88,
+      "button": -1,
+      "token": 61383
+    },
+    {
+      "name": "y",
+      "index": 522,
+      "width": 24,
+      "key": 89,
+      "button": -1,
+      "token": 61384
+    },
+    {
+      "name": "z",
+      "index": 540,
+      "width": 24,
+      "key": 90,
+      "button": -1,
+      "token": 61385
+    },
+    {
+      "name": "0",
+      "index": 558,
+      "width": 24,
+      "key": 48,
+      "button": -1,
+      "token": 61386
+    },
+    {
+      "name": "1",
+      "index": 576,
+      "width": 24,
+      "key": 49,
+      "button": -1,
+      "token": 61387
+    },
+    {
+      "name": "2",
+      "index": 594,
+      "width": 24,
+      "key": 50,
+      "button": -1,
+      "token": 61388
+    },
+    {
+      "name": "3",
+      "index": 612,
+      "width": 24,
+      "key": 51,
+      "button": -1,
+      "token": 61389
+    },
+    {
+      "name": "4",
+      "index": 630,
+      "width": 24,
+      "key": 52,
+      "button": -1,
+      "token": 61390
+    },
+    {
+      "name": "5",
+      "index": 648,
+      "width": 24,
+      "key": 53,
+      "button": -1,
+      "token": 61391
+    },
+    {
+      "name": "6",
+      "index": 666,
+      "width": 24,
+      "key": 54,
+      "button": -1,
+      "token": 61392
+    },
+    {
+      "name": "7",
+      "index": 684,
+      "width": 24,
+      "key": 55,
+      "button": -1,
+      "token": 61393
+    },
+    {
+      "name": "8",
+      "index": 702,
+      "width": 24,
+      "key": 56,
+      "button": -1,
+      "token": 61394
+    },
+    {
+      "name": "9",
+      "index": 720,
+      "width": 24,
+      "key": 57,
+      "button": -1,
+      "token": 61395
+    },
+    {
+      "name": "f1",
+      "index": 738,
+      "width": 28,
+      "key": 290,
+      "button": -1,
+      "token": 61396
+    },
+    {
+      "name": "f2",
+      "index": 756,
+      "width": 28,
+      "key": 291,
+      "button": -1,
+      "token": 61397
+    },
+    {
+      "name": "f3",
+      "index": 774,
+      "width": 28,
+      "key": 292,
+      "button": -1,
+      "token": 61398
+    },
+    {
+      "name": "f4",
+      "index": 792,
+      "width": 28,
+      "key": 293,
+      "button": -1,
+      "token": 61399
+    },
+    {
+      "name": "f5",
+      "index": 810,
+      "width": 28,
+      "key": 294,
+      "button": -1,
+      "token": 61400
+    },
+    {
+      "name": "f6",
+      "index": 828,
+      "width": 28,
+      "key": 295,
+      "button": -1,
+      "token": 61401
+    },
+    {
+      "name": "f7",
+      "index": 846,
+      "width": 28,
+      "key": 296,
+      "button": -1,
+      "token": 61402
+    },
+    {
+      "name": "f8",
+      "index": 864,
+      "width": 28,
+      "key": 297,
+      "button": -1,
+      "token": 61403
+    },
+    {
+      "name": "f9",
+      "index": 882,
+      "width": 28,
+      "key": 298,
+      "button": -1,
+      "token": 61404
+    },
+    {
+      "name": "f10",
+      "index": 900,
+      "width": 28,
+      "key": 299,
+      "button": -1,
+      "token": 61405
+    },
+    {
+      "name": "f11",
+      "index": 918,
+      "width": 28,
+      "key": 300,
+      "button": -1,
+      "token": 61406
+    },
+    {
+      "name": "f12",
+      "index": 936,
+      "width": 28,
+      "key": 301,
+      "button": -1,
+      "token": 61407
+    },
+    {
+      "name": "esc",
+      "index": 954,
+      "width": 32,
+      "key": 256,
+      "button": -1,
+      "token": 61408
+    },
+    {
+      "name": "tab",
+      "index": 972,
+      "width": 34,
+      "key": 258,
+      "button": -1,
+      "token": 61409
+    },
+    {
+      "name": "caps-lock",
+      "index": 990,
+      "width": 38,
+      "key": 280,
+      "button": -1,
+      "token": 61410
+    },
+    {
+      "name": "shift",
+      "index": 1008,
+      "width": 40,
+      "key": 340,
+      "button": -1,
+      "token": 61411
+    },
+    {
+      "name": "ctrl",
+      "index": 1026,
+      "width": 36,
+      "key": 341,
+      "button": -1,
+      "token": 61412
+    },
+    {
+      "name": "alt",
+      "index": 1044,
+      "width": 30,
+      "key": 342,
+      "button": -1,
+      "token": 61413
+    },
+    {
+      "name": "enter",
+      "index": 1062,
+      "width": 44,
+      "key": 257,
+      "button": -1,
+      "token": 61414
+    },
+    {
+      "name": "space",
+      "index": 1080,
+      "width": 64,
+      "key": 32,
+      "button": -1,
+      "token": 61415
+    },
+    {
+      "name": "backspace",
+      "index": 1098,
+      "width": 58,
+      "key": 259,
+      "button": -1,
+      "token": 61416
+    },
+    {
+      "name": "delete",
+      "index": 1116,
+      "width": 32,
+      "key": 261,
+      "button": -1,
+      "token": 61417
+    },
+    {
+      "name": "insert",
+      "index": 1134,
+      "width": 32,
+      "key": 260,
+      "button": -1,
+      "token": 61418
+    },
+    {
+      "name": "home",
+      "index": 1152,
+      "width": 40,
+      "key": 268,
+      "button": -1,
+      "token": 61419
+    },
+    {
+      "name": "end",
+      "index": 1170,
+      "width": 34,
+      "key": 269,
+      "button": -1,
+      "token": 61420
+    },
+    {
+      "name": "page-up",
+      "index": 1188,
+      "width": 40,
+      "key": 266,
+      "button": -1,
+      "token": 61421
+    },
+    {
+      "name": "page-down",
+      "index": 1206,
+      "width": 40,
+      "key": 267,
+      "button": -1,
+      "token": 61422
+    },
+    {
+      "name": "left",
+      "index": 1224,
+      "width": 24,
+      "key": 263,
+      "button": -1,
+      "token": 61423
+    },
+    {
+      "name": "right",
+      "index": 1242,
+      "width": 24,
+      "key": 262,
+      "button": -1,
+      "token": 61424
+    },
+    {
+      "name": "up",
+      "index": 1260,
+      "width": 24,
+      "key": 265,
+      "button": -1,
+      "token": 61425
+    },
+    {
+      "name": "down",
+      "index": 1278,
+      "width": 24,
+      "key": 264,
+      "button": -1,
+      "token": 61426
+    },
+    {
+      "name": "minus",
+      "index": 1296,
+      "width": 24,
+      "key": 45,
+      "button": -1,
+      "token": 61427
+    },
+    {
+      "name": "equals",
+      "index": 1314,
+      "width": 24,
+      "key": 61,
+      "button": -1,
+      "token": 61428
+    },
+    {
+      "name": "left-bracket",
+      "index": 1332,
+      "width": 24,
+      "key": 91,
+      "button": -1,
+      "token": 61429
+    },
+    {
+      "name": "right-bracket",
+      "index": 1350,
+      "width": 24,
+      "key": 93,
+      "button": -1,
+      "token": 61430
+    },
+    {
+      "name": "semicolon",
+      "index": 1368,
+      "width": 24,
+      "key": 59,
+      "button": -1,
+      "token": 61431
+    },
+    {
+      "name": "quote",
+      "index": 1386,
+      "width": 24,
+      "key": 39,
+      "button": -1,
+      "token": 61432
+    },
+    {
+      "name": "comma",
+      "index": 1404,
+      "width": 24,
+      "key": 44,
+      "button": -1,
+      "token": 61433
+    },
+    {
+      "name": "period",
+      "index": 1422,
+      "width": 24,
+      "key": 46,
+      "button": -1,
+      "token": 61434
+    },
+    {
+      "name": "slash",
+      "index": 1440,
+      "width": 24,
+      "key": 47,
+      "button": -1,
+      "token": 61435
+    },
+    {
+      "name": "backslash",
+      "index": 1458,
+      "width": 24,
+      "key": 92,
+      "button": -1,
+      "token": 61436
+    },
+    {
+      "name": "grave",
+      "index": 1476,
+      "width": 24,
+      "key": 96,
+      "button": -1,
+      "token": 61437
+    }
+  ]
+}

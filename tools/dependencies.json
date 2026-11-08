@@ -1,0 +1,26 @@
+[
+  {
+    "project": "4ZVIxU8x",
+    "version": "XIafvWQz",
+    "name": "2.5.60.6",
+    "filename": "goety-2.5.60.6.jar",
+    "url": "https://mediafilez.forgecdn.net/files/9474/33/goety-2.5.60.6.jar",
+    "sha512": "ba86b8caf95e951576fe99e6a3ceb1b5592b40a84c5c62b77d23c1253a579d565fa2ef5aa1ddc8e927fabaeb94d67a7900cd392b6e5952ef809cb5b6fbd586b6"
+  },
+  {
+    "project": "vvuO3ImH",
+    "version": "IPQlZkz1",
+    "name": "5.14.1+1.20.1",
+    "filename": "curios-forge-5.14.1+1.20.1.jar",
+    "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
+    "sha512": "1373f95fd111c977db2f6adcef8e4eb486a2d926a3e17374692dee4ac3d65857de6446c16922b531aa5ace2c23c666a7fcc28c720b2917c1e04808d15648ba87"
+  },
+  {
+    "project": "nU0bVIaL",
+    "version": "94dtOLgZ",
+    "name": "1.20.1-85-forge",
+    "filename": "Patchouli-1.20.1-85-FORGE.jar",
+    "url": "https://cdn.modrinth.com/data/nU0bVIaL/versions/94dtOLgZ/Patchouli-1.20.1-85-FORGE.jar",
+    "sha512": "15aedda4efcc553d5e3c83aa867b62554bc2fab298b43f55ed324e10507a3605f0ec2c59c01476e6d80b2a49275ef080142e43a6e663f9463b62f520960fc203"
+  }
+]

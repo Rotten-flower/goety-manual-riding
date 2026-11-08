@@ -1,0 +1,55 @@
+plugins { id 'net.minecraftforge.gradle' version '6.0.54' }
+version = mod_version
+group = 'dev.flower.manualriding'
+base { archivesName = 'goety-manual-riding-forge-1.20.1' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+sourceSets { gameTest { compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath; runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath } }
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+    copyIdeResources = true
+    runs {
+        configureEach {
+            workingDirectory project.file('run')
+            property 'forge.logging.console.level', 'info'
+            args '-mixin.config', 'manualriding.mixins.json'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', project.file('build/createSrgToMcp/output.srg').absolutePath
+            mods { manualriding { source sourceSets.main } }
+        }
+        client {
+            args '--width', '1280', '--height', '900'
+            jvmArgs '-Xmx4G'
+            if (project.hasProperty('iconChecks')) property 'manualriding.iconChecks', 'true'
+            if (project.hasProperty('handoff')) property 'manualriding.handoff', 'true'
+            if (project.hasProperty('redstoneChecks')) property 'manualriding.redstoneChecks', 'true'
+            if (project.hasProperty('releaseShots')) property 'manualriding.releaseShots', 'true'
+            if (project.hasProperty('acceptance')) { mods { manualriding { source sourceSets.gameTest } } }
+        }
+        server {
+            workingDirectory project.file('run/server')
+            args '--nogui'
+            if (project.hasProperty('acceptance')) { mods { manualriding { source sourceSets.gameTest } } }
+        }
+    }
+}
+repositories { flatDir { dirs 'libs' }; mavenCentral() }
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.10'
+    implementation fg.deobf('local.compat:goety:2.5.60.6')
+    implementation fg.deobf('local.compat:curios-forge:5.14.1+1.20.1')
+    runtimeOnly fg.deobf('local.compat:Patchouli:1.20.1-85-FORGE')
+}
+tasks.named('processResources', ProcessResources).configure {
+    filteringCharset = 'UTF-8'
+    inputs.property 'version', project.version
+    filesMatching('META-INF/mods.toml') { expand version: project.version }
+}
+tasks.named('jar', Jar).configure {
+    manifest.attributes('MixinConfigs': 'manualriding.mixins.json')
+    from(files('LICENSE', 'LICENSE-ASSETS.md')) { into 'META-INF' }
+    from('third-party/Goety-MIT.txt') { into 'META-INF/licenses' }
+    finalizedBy 'reobfJar'
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+

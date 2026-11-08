@@ -1,0 +1,16 @@
+.gradle/
+build/
+run/
+libs/
+work/
+dist/
+发布/
+AGENTS.md
+CURRENT.md
+release.json
+src/gameTest/
+.idea/
+.vscode/
+*.log
+__pycache__/
+*.pyc
