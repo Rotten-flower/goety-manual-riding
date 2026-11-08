@@ -9,6 +9,7 @@ AGENTS.md
 CURRENT.md
 release.json
 src/gameTest/
+**/src/gameTest/
 .idea/
 .vscode/
 *.log

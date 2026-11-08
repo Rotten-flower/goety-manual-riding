@@ -1,0 +1,37 @@
+plugins { id 'java-library'; id 'net.neoforged.moddev' version '2.0.148' }
+version = mod_version
+group = 'dev.flower.manualriding'
+base { archivesName = 'goety-manual-riding-neoforge-1.21.1' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+if (project.hasProperty('acceptance')) {
+    sourceSets { gameTest { compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath; runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath } }
+}
+neoFormRuntime { version = '2.0.18' }
+neoForge {
+    version = '21.1.265'
+    accessTransformers.from('src/main/resources/META-INF/accesstransformer.cfg')
+    runs {
+        client {
+            client(); gameDirectory = project.file('run'); programArguments.addAll '--width', '1280', '--height', '900'
+            if (project.hasProperty('acceptance') && project.hasProperty('checkStart')) systemProperty 'manualriding.checkStart', project.property('checkStart')
+        }
+        server { server(); gameDirectory = project.file('run/server'); programArgument '--nogui' }
+    }
+    mods { manualriding { sourceSet sourceSets.main; if (project.hasProperty('acceptance')) sourceSet sourceSets.gameTest } }
+}
+repositories { mavenCentral() }
+dependencies {
+    implementation files('libs/goety-3.2.2.jar', 'libs/curios-neoforge-9.5.1+1.21.1.jar')
+    runtimeOnly files('libs/Patchouli-1.21.1-93-NEOFORGE.jar')
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.named('processResources', ProcessResources).configure {
+    filteringCharset = 'UTF-8'
+    from('../src/main/resources') { include 'assets/**', 'icon.png' }
+    inputs.property 'version', project.version
+    filesMatching('META-INF/neoforge.mods.toml') { expand version: project.version }
+}
+tasks.named('jar', Jar).configure {
+    from(files('../LICENSE', '../LICENSE-ASSETS.md')) { into 'META-INF' }
+    from('../third-party/Goety-MIT.txt') { into 'META-INF/licenses' }
+}

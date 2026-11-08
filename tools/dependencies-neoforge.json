@@ -1,0 +1,26 @@
+[
+  {
+    "project": "4ZVIxU8x",
+    "version": "xLTYSsZD",
+    "name": "3.2.2",
+    "filename": "goety-3.2.2.jar",
+    "url": "https://mediafilez.forgecdn.net/files/9319/42/goety-3.2.2.jar",
+    "sha512": "d68103012faad1b74cf96017aa22711d80033d04035e98e5452f4f70d6fbc30c6523b4d3f561fedba798e116055caf598432b472b13e8a11dca07d00468b8b46"
+  },
+  {
+    "project": "vvuO3ImH",
+    "version": "yohfFbgD",
+    "name": "9.5.1+1.21.1",
+    "filename": "curios-neoforge-9.5.1+1.21.1.jar",
+    "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/yohfFbgD/curios-neoforge-9.5.1%2B1.21.1.jar",
+    "sha512": "5981a267686b744e7e3c227f78cbcd5267c14ac6979a28e814695f4589273998563147207fef4a5cdb7cdbdc39797cd95d9e4abadb55869f18e02a38d0654ae5"
+  },
+  {
+    "project": "nU0bVIaL",
+    "version": "BIogJv2D",
+    "name": "1.21.1-93-neoforge",
+    "filename": "Patchouli-1.21.1-93-NEOFORGE.jar",
+    "url": "https://cdn.modrinth.com/data/nU0bVIaL/versions/BIogJv2D/Patchouli-1.21.1-93-NEOFORGE.jar",
+    "sha512": "0b5c172db9a6eeecb5ca44b359a83548c3a60be7ff313959acdfc1e5b8039736c18e57e947d435b52d06da31159d2d02ea36e5742668dbc826308a4c99e4039f"
+  }
+]

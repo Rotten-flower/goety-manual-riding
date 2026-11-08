@@ -1,0 +1,47 @@
+plugins { id 'fabric-loom' version '1.15.5' }
+version = mod_version
+group = 'dev.flower.manualriding'
+base { archivesName = 'goety-manual-riding-fabric-1.20.1' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+if (project.hasProperty('acceptance')) {
+    sourceSets { gameTest { compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath; runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath } }
+}
+repositories { mavenCentral() }
+dependencies {
+    minecraft 'com.mojang:minecraft:1.20.1'
+    mappings loom.officialMojangMappings()
+    modImplementation 'net.fabricmc:fabric-loader:0.18.5'
+    modImplementation 'net.fabricmc.fabric-api:fabric-api:0.92.12+1.20.1'
+    modImplementation files('libs/goety-fabric-0.7.0-forge2.5.58.2+mc1.20.1.jar')
+    modRuntimeOnly fileTree(dir:'libs',include:['*.jar'],exclude:['goety-fabric-*.jar'])
+    modRuntimeOnly fileTree(dir:'libs/nested',include:['*.jar'])
+}
+loom {
+    mixin { useLegacyMixinAp = true }
+    accessWidenerPath = file('src/main/resources/manualriding.accesswidener')
+    mixin { defaultRefmapName = 'manualriding.refmap.json' }
+    runs {
+        client {
+            client(); runDir 'run'; programArgs '--width','1280','--height','900'
+            if (project.hasProperty('acceptance') && project.hasProperty('checkStart')) property 'manualriding.checkStart', project.property('checkStart')
+        }
+        server { server(); runDir 'run/server'; programArgs '--nogui' }
+    }
+    if (project.hasProperty('acceptance')) {
+        mods { manualriding { sourceSet sourceSets.main }; manualriding_checks { sourceSet sourceSets.gameTest } }
+    }
+}
+if (project.hasProperty('acceptance')) {
+    loom { runs { client { source sourceSets.gameTest }; server { source sourceSets.gameTest } } }
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.named('processResources', ProcessResources).configure {
+    filteringCharset = 'UTF-8'
+    from('../src/main/resources') { include 'assets/**','icon.png' }
+    inputs.property 'version',project.version
+    filesMatching('fabric.mod.json') { expand version:project.version }
+}
+tasks.named('jar', Jar).configure {
+    from(files('../LICENSE','../LICENSE-ASSETS.md')) { into 'META-INF' }
+    from('../third-party/Goety-MIT.txt') { into 'META-INF/licenses' }
+}

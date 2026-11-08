@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.flower.manualriding.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "TramplerDash",
+    "RedstoneCooldown"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "project": "DkTVV50F",
+    "version": "KuwvSQhj",
+    "name": "0.7.0-forge2.5.58.2+mc1.20.1",
+    "filename": "goety-fabric-0.7.0-forge2.5.58.2+mc1.20.1.jar",
+    "url": "https://cdn.modrinth.com/data/DkTVV50F/versions/KuwvSQhj/goety-fabric-0.7.0-forge2.5.58.2%2Bmc1.20.1.jar",
+    "sha512": "65b25e04d269c01d754bcd0be86807e4fb0378a31321542073be6e3fc9c0ab2789a84b4eb6ad877ff0ff1d5e8eb303a8e67f73446765ad74f951b6d09a4b6225",
+    "expose_nested_mods": true
+  },
+  {
+    "project": "5aaWibi9",
+    "version": "e563ycts",
+    "name": "3.7.1",
+    "filename": "trinkets-3.7.1.jar",
+    "url": "https://cdn.modrinth.com/data/5aaWibi9/versions/e563ycts/trinkets-3.7.1.jar",
+    "sha512": "e2869ce20fc87025a8a7d2cbca58ff4857f287004141f51e4b297ea240c18950d5c0ddff258547731974a763efd835d8c3c283804dae03a42e31cb761800f75d"
+  },
+  {
+    "project": "ohNO6lps",
+    "version": "1aKtMQZE",
+    "name": "v8.0.2-1.20.1-Fabric",
+    "filename": "ForgeConfigAPIPort-v8.0.2-1.20.1-Fabric.jar",
+    "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/1aKtMQZE/ForgeConfigAPIPort-v8.0.2-1.20.1-Fabric.jar",
+    "sha512": "c74fda4c25f42f182cae4ef2abaceb6992f14015a9b97570460c98f3cec15db6f7f2806f970efa1d10ffab62dd50257f8486cb586da129459225e3aa8db71ae0"
+  }
+]

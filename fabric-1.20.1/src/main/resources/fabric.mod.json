@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "manualriding",
+  "version": "${version}",
+  "name": "Goety: Manual Riding",
+  "description": "",
+  "authors": [
+    "Rotten-flower"
+  ],
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.flower.manualriding.ManualRiding"
+    ],
+    "client": [
+      "dev.flower.manualriding.RidingClient"
+    ]
+  },
+  "mixins": [
+    "manualriding.mixins.json"
+  ],
+  "accessWidener": "manualriding.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.18.5",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*",
+    "goety": "=0.7.0-forge2.5.58.2+mc1.20.1"
+  }
+}

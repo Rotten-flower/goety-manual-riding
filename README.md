@@ -20,7 +20,7 @@ The lower-left HUD shows the current bindings, abilities and cooldowns. Change b
 
 ## Supported mounts
 
-Bear Servant, Polar Bear Servant, Hoglin Servant, Gnasher, Ravager, Zombie Ravager, Trampler, Brood Mother, Redstone Monstrosity and Grave Monstrosity.
+Bear Servant, Polar Bear Servant, Hoglin Servant, Gnasher, Ravager, Zombie Ravager, Trampler, Brood Mother and Redstone Monstrosity. The Forge version also supports Grave Monstrosity, which is not yet present in the tested Fabric and NeoForge versions of Goety.
 
 Native ability cooldowns and summon limits still apply. Native Goety models, textures and animations are retained.
 
@@ -28,7 +28,13 @@ Native ability cooldowns and summon limits still apply. Native Goety models, tex
 
 ## Installation
 
-Minecraft Java **1.20.1**, Forge **47.4.10**, Goety **2.5.60.6**. Install on both the client and server, together with Goety's required dependencies, Curios and Patchouli.
+| Minecraft | Loader | Required Goety version |
+| --- | --- | --- |
+| 1.20.1 | Forge 47.4.10 | Goety 2.5.60.6 |
+| 1.20.1 | Fabric Loader 0.18.5 | [Goety-Fabric](https://modrinth.com/mod/goety-fabric) 0.7.0 |
+| 1.21.1 | NeoForge 21.1.265 | Goety 3.2.2 |
+
+Install on both the client and server, together with Goety's dependencies. The Fabric build requires Sh1roCu's unofficial Goety-Fabric port, Fabric API, Trinkets and Forge Config API Port.
 
 ## License and source
 
@@ -46,7 +52,7 @@ Suggestions are also welcome! Your feedback will help guide improvements in futu
 
 ## Development
 
-See [BUILDING.md](BUILDING.md) for Java 17 build and isolated test commands.
+See [BUILDING.md](BUILDING.md) for the build and development commands for each loader.
 
 # 诡厄巫法：手动骑乘
 
@@ -70,7 +76,7 @@ See [BUILDING.md](BUILDING.md) for Java 17 build and isolated test commands.
 
 ## 支持的坐骑
 
-熊、北极熊、疣猪兽、噬咬鲨、劫掠兽、僵尸劫掠兽、践踏者、育母蜘蛛、红石巨兽和墓灵巨兽。
+熊、北极熊、疣猪兽、噬咬鲨、劫掠兽、僵尸劫掠兽、践踏者、育母蜘蛛和红石巨兽。Forge 版还支持墓灵巨兽，所测试的 Fabric 和 NeoForge 本体暂未加入该生物。
 
 技能冷却与召唤数量限制沿用原模组。保留诡厄巫法原有模型、纹理和动作。
 
@@ -78,7 +84,13 @@ See [BUILDING.md](BUILDING.md) for Java 17 build and isolated test commands.
 
 ## 安装
 
-Minecraft Java **1.20.1**，Forge **47.4.10**，Goety **2.5.60.6**。客户端与服务端均需安装，并安装 Goety 所需的 Curios 和 Patchouli。
+| Minecraft | 加载器 | 所需诡厄巫法版本 |
+| --- | --- | --- |
+| 1.20.1 | Forge 47.4.10 | Goety 2.5.60.6 |
+| 1.20.1 | Fabric Loader 0.18.5 | [Goety-Fabric](https://modrinth.com/mod/goety-fabric) 0.7.0 |
+| 1.21.1 | NeoForge 21.1.265 | Goety 3.2.2 |
+
+客户端与服务端均需安装，并安装本体所需的前置。Fabric 版使用 Sh1roCu 的非官方移植 Goety-Fabric，需同时安装 Fabric API、Trinkets 和 Forge Config API Port。
 
 ## 协议与来源
 
@@ -96,4 +108,4 @@ Minecraft Java **1.20.1**，Forge **47.4.10**，Goety **2.5.60.6**。客户端�
 
 ## 开发
 
-Java 17 构建与隔离测试命令见 [BUILDING.md](BUILDING.md)。
+各加载器的构建与开发命令见 [BUILDING.md](BUILDING.md)。
