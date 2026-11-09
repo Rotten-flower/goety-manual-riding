@@ -6,23 +6,11 @@ AI was used extensively during the development of this mod. Issues may still occ
 
 ## Overview
 
-Manually control the attacks and abilities of your Goety mounts.
+Manually control the attacks and abilities of Goety mounts.
 
 ## Usage
 
-Mount a supported servant that belongs to you, then press **Left Alt** to switch between automatic and manual control.
-
-- **Attack / Use**: basic attack / main ability.
-- **R / F / G**: additional abilities, depending on the mount.
-- **Dismount**: restore the mount's original AI.
-
-The lower-left HUD shows the current bindings, abilities and cooldowns. Change bindings in **Options → Controls → Key Binds → Goety: Manual Riding**. This mod has no separate configuration file.
-
-## Supported mounts
-
-Bear Servant, Polar Bear Servant, Hoglin Servant, Gnasher, Ravager, Zombie Ravager, Trampler, Brood Mother and Redstone Monstrosity. The Forge version also supports Grave Monstrosity, which is not yet present in the tested Fabric and NeoForge versions of Goety.
-
-Native ability cooldowns and summon limits still apply. Native Goety models, textures and animations are retained.
+Mount a servant that belongs to you, then press **Left Alt** to switch between automatic and manual control.
 
 ![Manual riding and ability HUD](media/manual-riding.png)
 
@@ -50,6 +38,8 @@ Suggestions are also welcome! Your feedback will help guide improvements in futu
 
 **Support the author:** [Afdian](https://afdian.com/a/lbcm233)
 
+**Sponsor:** 飞天水螅
+
 ## Development
 
 See [BUILDING.md](BUILDING.md) for the build and development commands for each loader.
@@ -66,19 +56,7 @@ See [BUILDING.md](BUILDING.md) for the build and development commands for each l
 
 ## 使用说明
 
-骑上属于自己的受支持仆从，按 **左 Alt** 切换自动和手动模式。
-
-- **攻击键 / 使用键**：普攻 / 主要技能。
-- **R / F / G**：其他技能，按坐骑类型显示。
-- **下马**：恢复坐骑原有 AI。
-
-左下角显示当前按键、招式和冷却。按键可在「选项 → 控制 → 按键绑定 → 诡厄巫法：手动骑乘」中调整。本模组没有单独的配置文件。
-
-## 支持的坐骑
-
-熊、北极熊、疣猪兽、噬咬鲨、劫掠兽、僵尸劫掠兽、践踏者、育母蜘蛛和红石巨兽。Forge 版还支持墓灵巨兽，所测试的 Fabric 和 NeoForge 本体暂未加入该生物。
-
-技能冷却与召唤数量限制沿用原模组。保留诡厄巫法原有模型、纹理和动作。
+骑上属于自己的仆从，按 **左 Alt** 切换自动与手动模式。
 
 ![手动骑乘与技能栏](media/manual-riding.png)
 
@@ -105,6 +83,8 @@ See [BUILDING.md](BUILDING.md) for the build and development commands for each l
 **QQ 交流群：** 1095622706
 
 **支持作者：** [爱发电](https://afdian.com/a/lbcm233)
+
+**资助者：飞天水螅**
 
 ## 开发
 
